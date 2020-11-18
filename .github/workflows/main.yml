@@ -3,9 +3,7 @@ on:
   pull_request:
     types:
       - opened
-    branches:
-      - 'feature/*'
-      - 'fix/*'
+
 jobs:
   ci:
     runs-on: ubuntu-latest
