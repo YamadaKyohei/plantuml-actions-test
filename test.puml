@@ -10,7 +10,7 @@ class 豚 {
 	- 生年月日: LocalDate
 }
 
-class 猿 {
+class 犬 {
 	- 名前: String
 	- 生年月日: LocalDate
 }
