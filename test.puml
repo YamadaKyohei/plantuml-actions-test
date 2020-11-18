@@ -5,7 +5,7 @@ class 人間 {
 	- 生年月日: LocalDate
 }
 
-class 豚 {
+class 猿 {
 	- 名前: String
 	- 生年月日: LocalDate
 }
