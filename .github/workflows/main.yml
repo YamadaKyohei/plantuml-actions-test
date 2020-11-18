@@ -1,8 +1,7 @@
 name: Generate PlantUML Diagrams
 on:
   pull_request:
-    types:
-      - opened
+    types: [opened, synclonized]
 
 jobs:
   ci:
