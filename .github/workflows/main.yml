@@ -4,7 +4,8 @@ on:
     types:
       - opened
     branches:
-      - all
+      - 'feature/*'
+      - 'fix/*'
 jobs:
   ci:
     runs-on: ubuntu-latest

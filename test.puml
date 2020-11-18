@@ -10,4 +10,9 @@ class 豚 {
 	- 生年月日: LocalDate
 }
 
+class 猫 {
+	- 名前: String
+	- 生年月日: LocalDate
+}
+
 @enduml
