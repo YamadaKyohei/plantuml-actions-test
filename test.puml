@@ -1,0 +1,8 @@
+@startuml
+
+class 人間 {
+	- 名前: String
+	- 生年月日: LocalDate
+}
+
+@enduml
