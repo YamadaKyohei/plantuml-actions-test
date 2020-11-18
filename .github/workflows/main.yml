@@ -1,10 +1,10 @@
 name: Generate PlantUML Diagrams
 on:
-  push:
-    paths:
-      - '**.puml'
+  pull_request:
+    types:
+      - opened
     branches:
-      - main
+      - all
 jobs:
   ci:
     runs-on: ubuntu-latest
