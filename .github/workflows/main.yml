@@ -4,7 +4,7 @@ on:
     paths:
       - '**.puml'
     branches:
-      - master
+      - 
 jobs:
   ci:
     runs-on: ubuntu-latest
